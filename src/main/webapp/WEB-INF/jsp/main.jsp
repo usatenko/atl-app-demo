@@ -6,6 +6,7 @@
 </head>
 <body>
 
+
 <c:choose><c:when test="${!empty users}">
     <ul>
         <c:forEach var="user" items="${users}">
@@ -15,6 +16,7 @@
 </c:when><c:otherwise>
     No users
 </c:otherwise></c:choose>
+
 
 </body>
 </html>
